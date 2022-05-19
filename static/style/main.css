@@ -1,0 +1,473 @@
+/*      bold     */
+@font-face {
+    font-family: 'PP Hatton';
+    src: url('./font/PPHatton-Ultrabold.ttf') format('truetype');
+
+    /* src: url('./font/PPHatton-Ultrabold.ttf') format('truetype'); */
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+/*      regular     */
+@font-face {
+    font-family: 'PPHatton';
+    src: url('./font/PPHatton.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Hatton';
+    src: url('./font/PPHatton-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+/*      light     */
+@font-face {
+    font-family: 'PP Hatton';
+    src: url('./font/PPHatton-Ultralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PP Hatton';
+    src: url('./font/PPHatton-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    margin: 0px;
+}
+
+.text{
+    color: white;
+    font-family: 'PP Hatton';
+    font-weight: normal;
+    margin: 0px;
+}
+.light-text{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 5vh;
+    text-align: center;
+}
+
+.text-heading {
+    color: #F0F0F0;
+    font-size: 8vh;
+    font-family: 'PP Hatton';  
+
+}
+
+
+main {
+    background-color: #000000;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.icon {
+    color: #F0F0F0;
+    padding: 40px;
+    font-size: 3vh;
+}
+.svg-wrapper{
+    height: 80vh;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    right: 200;
+    /* bottom: 0; */
+    /* min-width: 100%; */
+    /* min-height: 100%; */
+    /* background-size: cover; */
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+   
+}
+.mission-wrapper{
+    height: 10vh;
+}
+.story-wrapper{
+    /* height: 100vh; */
+    /* background-color: gray; */
+}
+
+
+/*****************************
+    video 
+    <div class="wrapper">
+          <div class="direct-wrapper" data-scroll data-scroll-call="dynamicBackground" data-scroll-repeat >
+            <!-- <video playsinline  loop id="bgvid">
+            <source src="./assets/diamond.mp4" type="video/mp4">
+   
+          </video> -->
+          <div class="" id="fixed-target"></div>
+          <!-- <img data-scroll data-scroll-sticky data-scroll  src="./assets/test.png" alt="diamond"> -->
+          <div class="" data-scroll data-scroll-sticky data-scroll-target="#fixed-target" style="background-image:url('./assets/test.png')"></div>
+
+          </div>
+        </div>
+        
+
+        <div class="ethos-wrapper">
+          <h1>cox quote</h1>
+        </div>
+        .parallax {
+    background-image: url("img_parallax.jpg");
+  
+    
+    min-height: 500px; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .story-wrapper{
+    height:1000px;background-color:red;font-size:36px;
+  }
+******************************/
+
+
+
+
+/* *{
+    box-sizing: inherit; 
+} */
+
+/** ******** */
+.txt-wrapper {
+    height: 70vh;
+}
+.parallax-div{
+    display: inline-block;
+    font-size: 1rem;
+    padding-left: 0;
+    vertical-align: top;
+    width: 100%;
+    box-sizing: inherit;
+}
+.outter-txt-wrapper{
+
+    position: relative;
+    z-index: 0;
+}
+
+.vid-wrapper{
+    height: 80vh;
+    background-color: #d4c9c9;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.vid-filler{
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: -100vh;
+}
+.vid{
+        background-position: 50%;
+        background-size: cover;
+        height: 100%;
+        mix-blend-mode: multiply;
+        opacity: .75;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: -100vh;
+}
+
+.action-wrapper{
+    height: auto;
+    /* background-color: bisque; */
+    padding: 30px;
+}
+
+.earl-video{
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    /* position: fixed; */
+    right: 200;
+    /* bottom: 0; */
+    /* min-width: 100%; */
+    /* min-height: 100%; */
+    /* background-size: cover; */
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+.cred-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 80vh; */
+    padding: 10vh;
+}
+
+.cred-quote {
+    /* margin: 30px; */
+    /* padding-top: 30px; */
+    color: white;
+    font-family: 'PP Hatton';
+    font-weight: lighter;
+    text-align: center;
+    font-size: 10vh;
+    text-transform: uppercase;
+}
+
+.cred-author p {
+    color: white;
+    font-family: 'Inter';
+    
+    text-align: center;
+    font-size: 2vh;
+    text-transform: uppercase;
+}
+.focus-word{
+    font-weight: 600;
+    /* color: #034078; */
+    /* color: #007ea7; */
+}
+/* 
+________________
+laptop media
+________________
+*/
+.executive-summary-wrapper{
+    /* height: calc(30vh + 32px + 16px); */
+    height: 150vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 40% 60%;
+    margin-bottom: 10vh;
+}
+.p-text{
+    color: white;
+    font-family: 'Inter';
+    text-align: left;
+    font-weight: 100;
+    font-size: 5vh;
+}
+.summary-heading{
+    padding: 0px 20px;
+}
+.p-point{
+    color: white;
+    font-family: 'Inter';
+}
+/* 
+________________
+call to action
+________________
+*/
+
+.call-to-action {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 10vh;
+}
+.action-text {
+    color: white;
+    font-family: 'Inter';
+    text-align: left;
+    font-weight: 100;
+    font-size: 3vh;
+    text-align: center;
+}
+.text-sub{
+    color: white;
+    font-family: 'PP Hatton';
+    text-align: left;
+    font-weight: 300;
+    font-size: 6vh;
+    text-align: center;
+}
+.event-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    background-color: black;
+    color: #e7e7e7;
+    border: 2px solid #e7e7e7;
+    padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Inter';
+  width: 200px;
+  }
+  .channels-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .social-icons{
+      color: white;
+      font-size: 4vh;
+      padding: 15px
+  }
+.icons-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.email-text{
+    color: white;
+    text-decoration: underline;
+
+}
+.email-wrapper {
+    margin: 10vh 0vh;
+}
+.fancy-txt{
+    background: #034078;
+background: radial-gradient(circle farthest-corner at center center, #034078 0%, #BCC0CF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+/*****************************
+    mobile phone media  
+******************************/
+@media (max-width: 43rem) {
+    .text{
+        color: white;
+        font-family: 'PP Hatton';
+        font-weight: normal;
+        text-align: center;
+        font-size: 7vh;
+    }
+    .header-wrapper {
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+    }
+    .header-text{
+        padding: 20vh 2vh;
+
+    }
+    .txt-wrapper {
+        padding: 3vw;
+    }
+    .parallax {
+        background-attachment: scroll;
+      }
+    .light-text {
+        color: white;
+        font-family: 'Inter', sans-serif;
+        font-weight: 100;
+        text-transform: uppercase;
+        font-size: 3vh;
+    }
+
+    .cred-heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* height: 80vh; */
+        padding: 6vh;
+    }
+    .cred-quote {
+        /* margin: 30px; */
+        /* padding-top: 30px; */
+        color: white;
+        font-family: 'PP Hatton';
+        font-weight: lighter;
+        text-align: center;
+        font-size: vh;
+        text-transform: uppercase;
+    }
+    .text-mobile{
+        color: white;
+    font-family: 'PP Hatton';
+    font-weight: normal;
+    text-align: center;
+    font-size: 5vh;
+    }
+    .call-to-action {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-evenly;
+        padding: 0;
+    }
+    .email-wrapper {
+        padding-top: 10vh;
+    }
+}
+
+/*****************************
+        tablet media  
+******************************/
+@media (min-width: 43rem) {
+    .text{
+        color: white;
+        font-family: 'PP Hatton';
+        font-weight: normal;
+        text-align: center;
+        font-size: 8vh;
+    }
+    .header-wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+    .header-text{
+        padding: 20vh 0vh;
+    }
+    .background-spacer{
+        width: 40vw;
+    }
+    .header-text {
+        width: auto;   
+    }
+    .parallax {
+        background-attachment: scroll;
+      }
+}
+/* laptop media  */
+@media (min-width: 72rem) {
+    .header-wrapper {
+        display: flex;
+        flex-direction: row;
+        height: 105vh;
+    }
+    .background-spacer {
+        width: 50vw;
+    }
+    
+    .header-text {
+        width: 50vw; 
+    }
+    .txt-wrapper {
+        padding: 10vw;
+    }
+        
+}
+.direct-wrapper{
+    height: 60vh;
+}
