@@ -203,6 +203,19 @@ main {
     /* background-color: bisque; */
     padding: 30px;
 }
+.action-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.action-header h1{
+    padding:20px;
+}
+.action-header h3{
+    padding: 20px;
+}
 
 .earl-video{
     right: 0;
@@ -289,7 +302,7 @@ ________________
     flex-direction: row;
     align-content: center;
     justify-content: space-evenly;
-    padding: 10vh;
+    padding: 0vh 10vh;
 }
 .action-text {
     color: white;
@@ -303,7 +316,7 @@ ________________
     color: white;
     font-family: 'PP Hatton';
     text-align: left;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 6vh;
     text-align: center;
 }
